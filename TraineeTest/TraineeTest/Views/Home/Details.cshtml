@@ -1,0 +1,23 @@
+﻿@model TraineeTest.Models.ContactManager
+@{
+    ViewBag.Title = Model.Name;
+}
+<h2>Manager @Model.Name</h2>
+<div>
+    <dl class="dl-horizontal">
+        <dt>Identifier</dt>
+        <dd>@Model.Id</dd>
+ 
+        <dt>Date of Birth</dt>
+        <dd>@Model.DateOfBirth</dd>
+
+        <dt>Married</dt>
+        <dd>@Model.Married</dd>
+
+        <dt>Phone</dt>
+        <dd>@Model.Phone</dd>
+
+        <dt>Salary</dt>
+        <dd>@Model.Salary</dd>
+    </dl>
+</div>
